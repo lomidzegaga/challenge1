@@ -16,7 +16,7 @@ data class UserDetail(
         val email: String?,
         @Json(name = "first_name")
         val firstName: String?,
-        @Json(name = "pr")
+        @Json(name = "id")
         val id: Int?,
         @Json(name = "last_name")
         val lastName: String?
